@@ -1,4 +1,4 @@
-package src.Shapes;
+package Shapes;
 
 /**
  * The Circle class defines a circle specified in double precision.
@@ -85,11 +85,5 @@ public class Circle {
 	public double getDegreesSectorArea(double alpha) {
 		return 3.1415926 * radius * radius * alpha / 360; 
 	}
-
-	/**
-	 * Main method that tests the calculation of Circle properties.
-	 * 
-	 * @param args the unused command line arguments.
-	 */
 	
 }

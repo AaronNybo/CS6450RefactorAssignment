@@ -1,7 +1,13 @@
 import java.util.Scanner;
-import src.Shapes.Circle;
+import Shapes.Circle;
 
 public class RefactorAssignment {
+
+	/**
+	 * Main method that tests the calculation of Circle properties.
+	 * 
+	 * @param args the unused command line arguments.
+	 */
     public static void main(String[] args) {
         // Create Scanner
         Scanner in = new Scanner(System.in);
