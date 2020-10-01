@@ -16,7 +16,7 @@ public class RefactorAssignment {
 
 		// Print program info
 		System.out.println("---------------------------------------------------------------------");
-		System.out.println("ShapeCalc v1.0");
+		System.out.println("ShapeCalc v1.1");
 		System.out.println();
 		System.out.println("Calculates and prints information for a user-supplied shape and width");
 		System.out.println("---------------------------------------------------------------------");
