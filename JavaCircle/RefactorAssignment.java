@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import Shapes.Circle;
+import src.Shapes.Circle;
 
 public class RefactorAssignment {
     public static void main(String[] args) {

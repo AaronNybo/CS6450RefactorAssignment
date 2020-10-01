@@ -1,4 +1,4 @@
-package Shapes;
+package src.Shapes;
 
 /**
  * The Circle class defines a circle specified in double precision.
