@@ -9,12 +9,13 @@ public class RefactorAssignment {
 	 * @param args the unused command line arguments.
 	 */
     public static void main(String[] args) {
+
         // Create Scanner
         Scanner in = new Scanner(System.in);
 
         // Print program info
 		System.out.println("------------------------------------------------------------");
-		System.out.println("CircleCalc v1.0");
+		System.out.println("CircleCalc v1.1");
 		System.out.println();
 		System.out.println("Calculates and prints information for a user-supplied radius");
 		System.out.println("------------------------------------------------------------");
@@ -39,6 +40,7 @@ public class RefactorAssignment {
         System.out.println("\tSector area at" + degree + "degrees: " + c.getDegreesSectorArea(degree));
         
         // Close Scanner
-        in.close();
+		in.close();
+		
 	}
 }

@@ -34,7 +34,7 @@ public class Circle {
 	 * @return the diameter of this Circle.
 	 */
 	public double getDiameter() {
-		return 2 * 3.1415926 * radius;
+		return 2 * Math.PI * radius;
 	}
 	
 	/**
@@ -43,7 +43,7 @@ public class Circle {
 	 * @return the area of this Circle.
 	 */
 	public double getArea() {
-		return 3.1415926 * radius * radius;
+		return Math.PI * radius * radius;
 	}
 	
 	/**
@@ -63,7 +63,7 @@ public class Circle {
 	 * @return the arc length for the given angle.
 	 */
 	public double getDegreesArcLength(double alpha) {
-		return 3.1415926 * radius * alpha / 180;
+		return Math.PI * radius * alpha / 180;
 	}
 	
 	/**
